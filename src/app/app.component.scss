@@ -387,7 +387,7 @@ header {
         }
     }
     .section-1 {
-        margin-top:5%;
+        margin-top: 5%;
         .content {
             margin-top: 0px;
             h5 {
@@ -411,6 +411,19 @@ header {
         .main-image {
             width: 350px !important;
             height: 350px !important;
+        }
+    }
+
+    .section-line {
+        margin-top: 5%;
+        text-align: center;
+        width: 100%;
+        h3 {
+            color: lightgray;
+            font-size: 25px;
+        }
+        h1 {
+            font-size: 32px;
         }
     }
 
@@ -484,7 +497,7 @@ header {
             }
         }
     }
-    .section-5{
+    .section-5 {
         margin-top: 5%;
     }
     .section-6 {
@@ -493,18 +506,6 @@ header {
     }
     .section-7 {
         margin-top: 5%;
-    }
-    .section-line {
-        margin-top: 5%;
-        text-align: center;
-        width: 100%;
-        h3 {
-            color: lightgray;
-            font-size: 25px;
-        }
-        h1 {
-            font-size: 32px;
-        }
     }
 }
 
@@ -552,11 +553,25 @@ header {
             height: 850px !important;
         }
     }
+
+    .section-line {
+        padding-top: 15%;
+        text-align: center;
+        width: 200%;
+        h3 {
+            color: lightgray;
+            font-size: 35px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 38px;
+            text-align: center;
+        }
+    }
+
     .section-2 {
-        margin-left: 50px;
-        margin-top: 0%;
+        margin-top: 10%;
         width: 100%;
-        margin-top: 0%;
         .col-image {
             .image-1 {
                 width: 100px !important;
@@ -567,29 +582,26 @@ header {
                 height: 600px !important;
             }
         }
-        .col-sm-12 {
-            width: 100%;
-            .column1-content {
-                text-align: justify;
-                margin-top: 40px;
-                h1 {
-                    font-size: 60px !important;
-                    // width: 200%;
-                    margin-left: 10px;
-                }
-                p {
-                    font-size: 29px !important;
-                    // width: 180%;
-                    font-family: "Poppins", Sans-serif;
-                    line-height: 50px;
-                    margin-left: 10px;
-                }
+        .column1-content {
+            text-align: justify;
+            margin-top: 40px;
+            width: 200%;
+            h1 {
+                font-size: 60px !important;
+                width: 200%;
+                margin-left: 10px;
+            }
+            p {
+                font-size: 29px !important;
+                width: 200%;
+                font-family: "Poppins", Sans-serif;
+                line-height: 50px;
+                margin-left: 10px;
             }
         }
     }
 
     .section-3 {
-        margin-left: 60px;
         flex-direction: column-reverse;
         width: 100%;
         margin-top: 100px;
@@ -611,12 +623,12 @@ header {
             margin-top: 40px;
             h1 {
                 font-size: 60px !important;
-                // width: 200%;
+                width: 200%;
                 margin-left: 10px;
             }
             p {
                 font-size: 29px !important;
-                // width: 180%;
+                width: 200%;
                 font-family: "Poppins", Sans-serif;
                 line-height: 50px;
                 margin-left: 10px;
@@ -625,9 +637,8 @@ header {
     }
 
     .section-4 {
-        margin-left: 50px;
         margin-top: 150px;
-        // width: 150%;
+        width: 200%;
         .col-image {
             .image-5 {
                 width: 100px !important;
@@ -644,14 +655,14 @@ header {
             h1 {
                 font-size: 60px !important;
                 width: 200%;
-                margin-left: 10px;
+                // margin-left: 10px;
             }
             p {
-                font-size: 29px !important;
-                // width: 180%;
+                font-size: 30px !important;
+                width: 240%;
                 font-family: "Poppins", Sans-serif;
                 line-height: 50px;
-                margin-left: 10px;
+                // margin-left: 10px;
             }
         }
     }
@@ -659,15 +670,15 @@ header {
     .section-5 {
         margin-top: 100px;
         // width: 240%;
-        margin-left: 100px;
+
         .f_column {
             h1 {
                 font-size: 40px;
-                // width: 200%;
+                width: 200%;
             }
             h5 {
                 font-size: 30px;
-                // width: 200%;
+                width: 200%;
             }
         }
         .l_column {
@@ -676,12 +687,26 @@ header {
                 font-size: 30px;
                 font-family: "Poppins", Sans-serif;
                 margin-top: 40px;
-                // width: 200%;
+                width: 200%;
                 line-height: 50px;
                 margin-left: 10px;
             }
         }
     }
+
+    .section-7{
+        width: 200%;
+        text-align: center;
+        h4{
+            font-size: 30px;
+        }
+        h5{
+            font-size: 30px;
+        }
+    }
+
+
+
 }
 
 // @media (max-width: 375px) {
