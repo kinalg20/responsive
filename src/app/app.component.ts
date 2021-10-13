@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'career-p';
+  Isshowmodel :boolean=false;
+  string:any;
+  applyfunc(string:any){
+    this.Isshowmodel=!this.Isshowmodel
+    this.string=string
+  }
+
+  close(){
+    this.Isshowmodel=false
+  }
 }
